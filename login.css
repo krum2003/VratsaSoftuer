@@ -1,0 +1,93 @@
+html {
+  width: 1920px;
+  height: 1080px;
+  padding: 0 0 0 183px;
+}
+input[type=text] {
+  width: 400px;
+  height: 50px;
+  margin: 118px 212px 23px 4px;
+  padding: 13px 336px 14px 16px;
+  border-radius: 15px;
+  border: solid 0.5px;
+  border-color:black; 
+}
+ input[type=password] {
+  width: 400px;
+  height: 50px;
+  margin: 23px 212px 21px 4px;
+  padding: 13px 306px 14px 16px;
+  border-radius: 15px;
+  border: solid 0.5px;
+  border-color:black;
+}
+button[type=login]{
+  width: 400px;
+  height: 50px;
+  margin: 60px 212px 26px 4px;
+  padding: 13px 178px 14px;
+  border-radius: 10px;
+  background-color: var(--kermit-green);
+  background-color: #69b501;
+}
+.Login{
+	width: 44px;
+  height: 23px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.34px;
+  text-align: left;
+  color: white;
+}
+label[for=keepMeLoggedIn] {
+  width: 147px;
+  height: 23px;
+  margin: 0 0 0 12px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.34px;
+  text-align: center;
+  color: var(--navy-blue);
+}
+input[type=checkbox]{
+   width: 20px;
+  height: 20px;
+  margin: 2px 12px 1px 0;
+  border-radius: 5px;
+  border: solid 1px var(--navy-blue);
+  background-color: var(--white);
+}
+img{
+	width: 180px;
+  height: 73px;
+  margin: 88px 436px 85px 0;
+  object-fit: contain;
+}
+p{
+	width: 150px;
+  height: 23px;
+  margin: 21px 462px 60px 4px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.34px;
+  text-align: left;
+  color: #00214b;
+ 
+}
+a:link {
+  color: #00214b;
+  text-decoration: none;
+
+}
