@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>VracaSoftuer</title>
 	<link rel="stylesheet" href="./login.css">
-</head>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
-	<div class="columns">
-	</div>
-	<img src="b22808ec-3b96-4b7a-8721-42a6942afba0.png">
-	<div class="container">
-		<form>
-			<div class="form-group">
-				<input type="text" class="form-control" name="email" placeholder="E-mail">
-			</div>
-			<div class="form-group">
-				<input type="password" class="form-control" name="password" placeholder="Password">
-			</div>
-			<div class="form-group">
-			<p class=".\-">Забраена парола?</p>
-			</div>
-			<div class="form-group">
-				<button type="login" class="Login" >Login</button>
-			</div>
-			<div class="form-check">
-				<input type="checkbox" name="keepMeLoggedIn" id="keepMeLoggedIn">
-				<label for="keepMeLoggedIn">Keep me logged in</label>
-			</div>
-		</form>
-	</div>
+    <div class="row g-0">
+    <a href=""><img class="logo-black" src="https://cdn.zeplin.io/5ff2c510e19ccf55490f37c1/assets/b22808ec-3b96-4b7a-8721-42a6942afba0.png"></a>
+    <br>
+    <label class="LOGIN">LOGIN</label>
+    <form>
+        <div > <small class="font-weight-bold">Need an account?<a href="login.html"class="text"> Create now</a></small> </div>
+  <div class="form-group">
+    <input type="email" class="form-control" name="email" placeholder="E-mail">
+  </div>
+  <div class="form-group">
+   <input type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+
+        <div> <a href="#" class="ml-auto"><b>Забравена парола?</b></a>
+                    </div>
+                    <br>
+        <button type="submit" class="btn btn-success">Login</button>
+        <div class="form-group form-check">
+            <input type="checkbox" name="keepMeLoggedIn" id="keepMeLoggedIn">
+            <label class="form-check-label" for="keepMeLoggedIn" >Keep me logged in</label>
+        </div>
+    </form>
+    <div class="row" id="mobileHide">
+            <div class="column">
+              <h2>Column 1</h2>
+              <p>Some text..</p>
+          </div>
+        </div>
+    </div>
+</script>
 </body>
 </html>
+
